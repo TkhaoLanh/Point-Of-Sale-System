@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <Label layoutX="250.0" prefHeight="109.0" prefWidth="167.0" text="MENU" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="High Tower Text" size="49.0" />
+         </font>
+      </Label>
+      <Line endX="558.0" layoutX="101.0" layoutY="98.0" startX="-101.0" />
+      <Label layoutX="335.0" layoutY="380.0" text="COLD BEVERAGES">
+         <font>
+            <Font name="Bell MT Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="380.0" text="HOT BEVERAGES">
+         <font>
+            <Font name="Bell MT Bold" size="31.0" />
+         </font>
+      </Label>
+      <ImageView blendMode="SRC_ATOP" cache="true" fitHeight="772.0" fitWidth="1127.0" focusTraversable="true" layoutX="-228.0" layoutY="-95.0" opacity="0.38" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@9.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnCold" layoutX="419.0" layoutY="429.0" mnemonicParsing="false" text="DETAILS">
+         <font>
+            <Font name="Bell MT" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnHot" layoutX="85.0" layoutY="429.0" mnemonicParsing="false" text="DETAILS">
+         <font>
+            <Font name="Bell MT" size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="69.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@8.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="413.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@7.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
