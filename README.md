@@ -13,4 +13,15 @@ Installing dependencies: run npm install in \server AND \client directories
 
 https://user-images.githubusercontent.com/98495637/189410133-c1021cf2-bd49-4689-a85b-23a808913bb9.mp4
 
+## Technologies
+- JDK 17
+- JavaFX
+- ArrayList
+- File I/O
+- Date
+
+### Authors
+- [Tkhao Lanh](https://github.com/TkhaoLanh)
+- [Harry Nguyen] (https://github.com/huyduc95)
+
 
