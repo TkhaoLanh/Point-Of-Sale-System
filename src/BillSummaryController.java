@@ -64,7 +64,7 @@ public class BillSummaryController {
         
     }
 
-    //button Print Bill
+    //button to Print bill
     public void onPrintClicked(){
        
         Alert alert = new Alert(AlertType.INFORMATION," THANK YOU FOR CHOOSING US, HAVE A WONDERFUL DAY ");
