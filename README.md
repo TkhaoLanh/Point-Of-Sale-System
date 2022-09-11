@@ -3,9 +3,9 @@ Today, the point-of-sale system plays a crucial role in many industrial markets,
 
 Regarding the same, we have thought about developing our own system specifically for coffee shops as part of the Java 2 project. There are some functionalities that will be built into this system, such as:
 
-1. Giving assistance to the cashier to place an order following the customer's request
-2. Providing the drink details 
-3. Printing the bill. 
+>1. Giving assistance to the cashier to place an order following the customer's request
+>2. Providing the drink details 
+>3. Printing the bill. 
 
 ## Getting Started
 ### Prerequisites
