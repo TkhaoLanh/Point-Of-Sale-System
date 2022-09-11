@@ -9,8 +9,8 @@ Regarding the same, we have thought about developing our own system specifically
 
 ## Getting Started
 ### Prerequisites
-- JavaFX
-- JDK 17
+- [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [JavaFX](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)
 
 ### Installing
 Installing dependencies: run npm install in \server AND \client directories
@@ -20,8 +20,8 @@ Installing dependencies: run npm install in \server AND \client directories
 https://user-images.githubusercontent.com/98495637/189410133-c1021cf2-bd49-4689-a85b-23a808913bb9.mp4
 
 ## Technologies
-- JDK 17
-- JavaFX
+- [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [JavaFX](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)
 - ArrayList
 - File I/O
 - Date
