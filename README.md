@@ -22,6 +22,6 @@ https://user-images.githubusercontent.com/98495637/189410133-c1021cf2-bd49-4689-
 
 ### Authors
 - [Tkhao Lanh](https://github.com/TkhaoLanh)
-- [huyduc95] (https://github.com/huyduc95)
+- [huyduc95](https://github.com/huyduc95)
 
 
