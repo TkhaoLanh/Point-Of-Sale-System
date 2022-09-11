@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DrinkDetailsController">
+   <children>
+      <Label layoutX="86.0" layoutY="14.0" text="DRINK DETAILS">
+         <font>
+            <Font name="High Tower Text" size="45.0" />
+         </font>
+      </Label>
+      <Line endX="268.5" layoutX="256.0" layoutY="80.0" startX="-241.5" />
+      <Label layoutX="58.0" layoutY="427.0" text="NOTE">
+         <font>
+            <Font name="Bell MT" size="25.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtNote" layoutX="225.0" layoutY="427.0" prefHeight="112.0" prefWidth="275.0">
+         <font>
+            <Font name="Bell MT" size="25.0" />
+         </font></TextArea>
+      <Button fx:id="btnCancel" layoutX="64.0" layoutY="614.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="125.0" text="CANCEL">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdd" layoutX="343.0" layoutY="614.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="125.0" text="ADD">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Button>
+      <Line endX="-257.0" endY="495.5" layoutX="271.0" layoutY="203.0" startX="-256.0" startY="-122.5" />
+      <Line endX="-255.0" endY="496.5" layoutX="780.0" layoutY="203.0" startX="-256.0" startY="-122.5" />
+      <Line endX="267.5" endY="1.0" layoutX="257.0" layoutY="698.0" startX="-242.5" startY="1.0" />
+      <RadioButton fx:id="radioSmall" layoutX="61.0" layoutY="275.0" mnemonicParsing="false" text="SMALL">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="group1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="radioMed" layoutX="225.0" layoutY="275.0" mnemonicParsing="false" text="MEDIUM" toggleGroup="$group1">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioLar" layoutX="405.0" layoutY="275.0" mnemonicParsing="false" text="LARGE" toggleGroup="$group1">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="58.0" layoutY="354.0" text="QUANTITY">
+         <font>
+            <Font name="Bell MT" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblName" layoutX="58.0" layoutY="110.0" text="Label">
+         <font>
+            <Font name="Bell MT Bold" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="194.0" text="\$">
+         <font>
+            <Font name="Bookman Old Style" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice" layoutX="77.0" layoutY="194.0" text="Label">
+         <font>
+            <Font name="Bodoni MT" size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtQty" layoutX="225.0" layoutY="350.0" prefHeight="25.0" prefWidth="97.0">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
