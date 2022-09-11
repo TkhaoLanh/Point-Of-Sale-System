@@ -17,6 +17,7 @@ import javafx.stage.Stage;
 public class DrinkDetailsController {
     private Drink selected = DrinkListController.selectedDrink; //A reference to the selected item
     static DrinkList _list = new DrinkList();
+    
     // Initializes the controller class.This method is automatically called after the FXML file has been loaded.
     @FXML private Label lblName;
     @FXML private Label lblPrice;
