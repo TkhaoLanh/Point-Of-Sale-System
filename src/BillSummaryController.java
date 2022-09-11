@@ -33,6 +33,7 @@ public class BillSummaryController {
     @FXML private Button btnBack;
     @FXML private TextField txtDate;
     @FXML private ImageView imageView;
+    
     // Initializes the controller class.This method is automatically called after the FXML file has been loaded.
     @FXML private void initialize() {
         //get value of item and its price, quantity
