@@ -13,7 +13,7 @@ Regarding the same, we have thought about developing our own system specifically
 - [JavaFX](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)
 
 ### Installing
-Installing dependencies: run npm install in \server AND \client directories
+Installing dependencies: run `npm install` in `\server` AND `\client` directories
 
 ## Demo
 
