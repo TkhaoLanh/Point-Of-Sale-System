@@ -1,7 +1,7 @@
 ## Point Of Sale System
-Today, the point-of-sale system plays a crucial role in many industrial markets, including the restaurant and supply chain. 
+Today, the `point-of-sale system` plays a `crucial role` in many `industrial markets`, including the `restaurant` and `supply chain`. 
 
-Regarding the same, we have thought about developing our own system specifically for coffee shops as part of the Java 2 project. There are some functionalities that will be built into this system, such as:
+Regarding the same, we have thought about `developing` our own system specifically for `coffee shops` as part of the `Java 2 project`. There are some functionalities that will be built into this system, such as:
 
 >1. Giving assistance to the cashier to place an order following the customer's request
 >2. Providing the drink details 
