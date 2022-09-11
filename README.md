@@ -22,8 +22,8 @@ https://user-images.githubusercontent.com/98495637/189410133-c1021cf2-bd49-4689-
 ## Technologies
 - [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - [JavaFX](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)
-- ArrayList
-- File I/O
+- [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+- [File I/O]([https://docs.oracle.com/javase/tutorial/essential/io/file.html](https://www.seas.upenn.edu/~cis1xx/resources/java/fileIO/introToFileIO.html)
 - Date
 
 ### Authors
