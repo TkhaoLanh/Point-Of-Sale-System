@@ -29,7 +29,7 @@
          </font></TextArea>
       <Button fx:id="btnCancel" layoutX="64.0" layoutY="614.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="125.0" text="CANCEL">
          <font>
-            <Font name="Bell MT" size="22.0" />
+            <Font name="Bell MT" size="22.0" /> 
          </font>
       </Button>
       <Button fx:id="btnAdd" layoutX="343.0" layoutY="614.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="125.0" text="ADD">
